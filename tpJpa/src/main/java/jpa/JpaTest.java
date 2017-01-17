@@ -37,15 +37,15 @@ public class JpaTest {
 			e.printStackTrace();
 		}
 		tx.commit();
-		//test.listHome();
+		test.listHome();
 		manager.close();
 		factory.close();
 		System.out.println(".. done");
 	}
 
 	private void createHome() {
-		//int numOfHome = manager.createQuery("SELECT a FROM Home a", Home.class).getResultList().size();
-		//if (numOfHome == 0) {
+		int numOfHome = manager.createQuery("SELECT a FROM Home a", Home.class).getResultList().size();
+		if (numOfHome == 0) {
 			for (int i = 0; i < 10; i++) {
 				ElectronicDevice elec = new ElectronicDevice();
 				elec.setName("electro" + i);
@@ -66,7 +66,7 @@ public class JpaTest {
 				manager.persist(home);
 			}
 
-		//}
+		}
 	}
 
 	private void listHome() {

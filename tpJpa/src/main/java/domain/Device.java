@@ -36,7 +36,7 @@ public class Device {
 		this.id = id;
 	}
 
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne
 	@JoinColumn(name = "home_device")
 	public Home getHome() {
 		return home;

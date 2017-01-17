@@ -59,7 +59,7 @@ public class Home {
 		this.devices = devices;
 	}
 
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne
 	@JoinColumn(name = "resident")
 	public Person getPerson() {
 		return person;

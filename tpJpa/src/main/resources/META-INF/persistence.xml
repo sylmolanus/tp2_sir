@@ -37,7 +37,7 @@ value="jdbc:mysql://mysql.istic.univ-rennes1.fr/base_12012310" />
 	     <property name="hibernate.hbm2ddl.auto" value="create"/>
          <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
          <property name="hibernate.connection.username" value="user_13003506"/>
-         <property name="hibernate.connection.password" value="quang94"/>
+         <property name="hibernate.connection.password" value="quang94."/>
          <property name="hibernate.connection.url" value="jdbc:mysql://mysql.istic.univ-rennes1.fr/base_13003506"/>
        	 <property name="hibernate.c3p0.min_size" value="5"/>
 		 <property name="hibernate.c3p0.max_size" value="20"/>
