@@ -32,6 +32,10 @@ public class Home {
 		this.nbRooms = nbRooms;
 		this.person = pers;
 	}
+	
+	public Home() {
+		
+	}
 
 	public double getSize() {
 		return size;
