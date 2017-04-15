@@ -1,0 +1,13 @@
+A LA DECOUVERTE DE JPA
+
+Ce TP a été réalisé par le binôme SYLLA MOHAMED LAMINE et LE QUANG dans le cadre des TP du cours de SIR. 
+
+Les objectifs de ce TP sont les suivants :
+-Comprendre les mécanismes de JPA
+-Réaliser une application en utilisant JPA en se plaçant dans un cadre classique de développement sans serveur d’application au départ.
+
+Sujet
+
+L’objectif de ce projet est de construire une application type réseau social permettant de comparer sa consommation électrique avec ses amis, ses voisins, … dans la lignée de opower. 
+OPower est une société américaine qui est fondée sur un principe de base déjà porteur : grâce à son logiciel, il permet aux consommateurs de maîtriser leur consommation d’énergie. En effet, il travaille conjointement avec des fournisseurs de services publics (électricité, gaz, téléphone, etc.) pour promouvoir l'efficacité énergétique. Mais lorsqu’il se met à surfer sur la vague Facebook, Opower fait de l’économie d’énergie un jeu… qui pourrait séduire ses clients !
+Opower a créé une application (liée à Facebook) qui permet de suivre sa consommation électrique dans le cadre d’un réseau social. Ainsi les consommateurs peuvent comparer leur consommation d’électricité avec celle de ses voisins sur le réseau social… De l’économie d’énergie ludique ! 
